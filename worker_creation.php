@@ -1,8 +1,8 @@
 <?php
 //Insert user in class
-$worker = new User("1","Afonso","123");
-$director = new User("2","Mario","123");
-$administrator = new User("3","Alvaro","123");
+$worker = new Worker("1","Afonso","123");
+$director = new Worker("2","Mario","123");
+$administrator = new Worker("3","Alvaro","123");
 
 //Get worker from class and put in array
 $worker_name = $worker->getName();

@@ -1,6 +1,6 @@
 <?php
 
-class User{
+class Worker{
 
     public $level;
     public $name;
