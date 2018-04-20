@@ -4,8 +4,8 @@ class User{
 
     public $level;
     public $name;
-    public $password;
-  
+    public $passdword;
+    
     public function __construct ($level, $name,$password) {
       $this->level = $level;
       $this->name = $name;
