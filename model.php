@@ -19,17 +19,17 @@ if(isset($_POST['name']) && $_POST['password'])
 
   function User()
   {
-    echo "Bem-vindo ".$name;
+    echo "Bem-vindo trabalhador ".$name;
     $_SESSION['user']=$name;
   }
   function Director()
   {
-    echo "Bem-vindo ".$name;
+    echo "Bem-vindo diretor ".$name;
     $_SESSION['user']=$name;
   }
   function Administrator()
   {
-    echo "Bem-vindo ".$name;
+    echo "Bem-vindo administrador ".$name;
     $_SESSION['user']=$name;
   }
 
