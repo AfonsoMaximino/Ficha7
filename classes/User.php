@@ -4,7 +4,7 @@ class User{
 
     public $level;
     public $name;
-    public $passdword;
+    public $password;
     
     public function __construct ($level, $name,$password) {
       $this->level = $level;
