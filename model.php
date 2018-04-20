@@ -21,6 +21,7 @@ if(isset($_POST['name']) && $_POST['password'])
   {
     echo "Bem-vindo trabalhador ".$name;
     $_SESSION['user']=$name;
+    
   }
   function Director()
   {
