@@ -17,24 +17,21 @@ if(isset($_POST['name']) && $_POST['password'])
     Administrator();
   }
 
-  function User()
-  {
-    echo "Bem-vindo trabalhador ".$name;
-    $_SESSION['user']=$name;
-    
-  }
-  function Director()
-  {
-    echo "Bem-vindo diretor ".$name;
-    $_SESSION['user']=$name;
-  }
-  function Administrator()
-  {
-    echo "Bem-vindo administrador ".$name;
-    $_SESSION['user']=$name;
-  }
-
-
-
+}
+function User()
+{
+  echo "Bem-vindo trabalhador ".$name;
+  $_SESSION['user']=$name;
+  
+}
+function Director()
+{
+  echo "Bem-vindo diretor ".$name;
+  $_SESSION['user']=$name;
+}
+function Administrator()
+{
+  echo "Bem-vindo administrador ".$name;
+  $_SESSION['user']=$name;
 }
 ?>

@@ -1,15 +1,15 @@
 <?php
 
-class Worker{
+class Worker extends User{
 
     public $level;
-    public $name;
-    public $password;
+    public $company;
+    public $position;
     
-    public function __construct ($level, $name,$password) {
+    public function __construct ($level, $company, $position) {
       $this->level = $level;
-      $this->name = $name;
-      $this->password = $password;
+      $this->company = $company;
+      $this->position = $position;
     }
 
     public function setLevel($level)
@@ -21,24 +21,23 @@ class Worker{
     return $this->level;
     }
 
-    public function setName($name)
+    public function setCompany($company)
     {
-    $this->name = $name;
+    $this->company = $company;
     } 
-    public function getName()
+    public function getCompany()
     {
-    return $this->name;
+    return $this->company;
     }
 
-    public function setPassword($password)
+    public function setPosition($position)
     {
-    $this->password = $password;
+    $this->position = $position;
     } 
-    public function getPassword()
+    public function getPosition()
     {
-    return $this->password;
+    return $this->position;
     }
 
-    
 
 }
